@@ -1,0 +1,5 @@
+﻿asset_id,hostname,ip_address,cve_id,cvss_score,exposure,business_criticality,status
+AST-001,web-server-01,192.0.2.10,CVE-DEMO-001,9.8,internet,critical,open
+AST-002,db-server-01,192.0.2.20,CVE-DEMO-002,8.1,internal,critical,open
+AST-003,test-server-01,192.0.2.30,CVE-DEMO-003,7.5,isolated,low,open
+AST-004,app-server-01,192.0.2.40,CVE-DEMO-004,6.5,internet,high,in_progress
