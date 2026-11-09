@@ -1,0 +1,45 @@
+{
+  "_comment": "Fictional demo data: CVE-DEMO identifiers and RFC 5737 documentation IP addresses.",
+  "findings": [
+    {
+      "asset_id": "HLX-WEB-02",
+      "hostname": "shop-front-02.helios.example",
+      "ip_address": "203.0.113.11",
+      "owner": "E-commerce Team",
+      "environment": "production",
+      "exposure": "internet",
+      "business_criticality": "critical",
+      "cve_id": "CVE-DEMO-010",
+      "title": "[DEMO] Remote code execution in web framework template engine",
+      "cvss_score": 9.8,
+      "cvss_version": "3.1",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "cwe_id": "CWE-94",
+      "service": "https",
+      "port": 443,
+      "protocol": "tcp",
+      "scanner_source": "demo-scanner",
+      "first_seen": "2026-11-02T08:00:00Z",
+      "references": ["https://example.org/advisories/demo-010"],
+      "evidence": "Fictional banner: DemoFramework/2.1.0"
+    },
+    {
+      "asset_id": "HLX-IOT-01",
+      "hostname": "badge-reader-01.helios.local",
+      "ip_address": "2001:db8::25",
+      "owner": "Facilities",
+      "environment": "production",
+      "exposure": "internal",
+      "business_criticality": "medium",
+      "cve_id": "CVE-DEMO-021",
+      "title": "[DEMO] Hard-coded credentials in badge reader firmware",
+      "cvss_score": 7.5,
+      "cwe_id": "CWE-798",
+      "service": "telnet",
+      "port": 23,
+      "scanner_source": "demo-scanner",
+      "first_seen": "2026-11-02T08:00:00Z",
+      "evidence": "Fictional firmware 1.0.4"
+    }
+  ]
+}

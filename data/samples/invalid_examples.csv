@@ -1,0 +1,8 @@
+asset_id,hostname,ip_address,cve_id,cvss_score,exposure,business_criticality,status
+AST-900,bad-cvss-01,192.0.2.90,CVE-DEMO-090,15.0,internet,high,open
+AST-901,bad-ip-01,999.1.1.1,CVE-DEMO-091,5.0,internal,low,open
+AST-902,bad-cve-01,192.0.2.92,CVE-21-1,5.0,internal,low,open
+AST-903,,192.0.2.93,CVE-DEMO-093,5.0,internal,low,open
+AST-904,bad-enum-01,192.0.2.94,CVE-DEMO-094,abc,everywhere,urgent,closed
+AST-905,valid-01,192.0.2.95,CVE-DEMO-095,4.3,internal,medium,open
+AST-905,valid-01,192.0.2.95,CVE-DEMO-095,4.3,internal,medium,open
