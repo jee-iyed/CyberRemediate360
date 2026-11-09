@@ -452,6 +452,8 @@ def page_risk() -> None:
             f"asset exposure {detail['asset']['exposure']} · criticality "
             f"{detail['asset']['business_criticality']}"
         )
+        if v.get("threat_source"):
+            b.caption(f"Threat signal source: {v['threat_source']}")
         if detail.get("evidence"):
             b.text(f"Evidence: {detail['evidence']}")
 
