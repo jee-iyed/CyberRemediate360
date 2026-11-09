@@ -1,0 +1,41 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Secrets & local config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+secrets/
+credentials*
+
+# Databases & backups (generated locally, may contain imported data)
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+data/backups/
+data/uploads/
+
+# Generated reports & logs
+reports/*
+!reports/.gitkeep
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
